@@ -20,7 +20,7 @@ end
 def find_the_cheese(array)
   counter = 0
   cheeses = ["cheddar", "gouda", "camembert"]
-  while counter < array.length
+  while counter < cheeses.length
   
   return cheeses.find{array.include?(cheeses) == true}
    
