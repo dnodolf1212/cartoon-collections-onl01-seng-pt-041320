@@ -20,7 +20,7 @@ end
 def find_the_cheese(array)  
   cheeses = ["cheddar", "gouda", "camembert"]
   count = 0
-   return cheeses.find{array.include?(cheeses) == true}
+   return cheeses.find{ |queso| while array.include?(cheeses) == true "#{queso}"}
    count += 1
   #find the first cheese in the cheeses array and return it if it is true that the cheeses array is in the argument array
   
