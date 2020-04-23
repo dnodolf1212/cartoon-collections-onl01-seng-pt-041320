@@ -19,7 +19,7 @@ end
 
 def find_the_cheese(array)  
   the_cheeses = ["cheddar", "gouda", "camembert"]
-  cheeses = the_cheeses.split
+  cheeses = the_cheeses.to_s
   
    return cheeses.find{array.include?(cheeses) == true}
    
