@@ -20,7 +20,7 @@ end
 def find_the_cheese(array)  
   cheeses = ["cheddar", "gouda", "camembert"]
   
-   return cheeses.find{array.include?(cheeses.to_s) == true}
+   return cheeses.find.to_s{array.include?(cheeses.to_s) == true}
   #find the first cheese in the cheeses array and return it if it is true that the cheeses array is in the argument array
   
 end
