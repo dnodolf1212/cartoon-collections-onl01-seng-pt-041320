@@ -18,7 +18,8 @@ def long_planeteer_calls(array)   #array of strings
 end
 
 def find_the_cheese(array)  
-  cheeses = ["cheddar", "gouda", "camembert"] 
+  the_cheeses = ["cheddar", "gouda", "camembert"]
+  cheeses = the_cheeses.split
   
    return cheeses.find{array.include?(cheeses) == true}
    
